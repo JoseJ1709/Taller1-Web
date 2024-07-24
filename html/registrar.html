@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <link rel="stylesheet" href="../css/resgistro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Bienvenida</a></li>
+                <li><a href="datos-biograficos.html">Datos Biográficos</a></li>
+                <li><a href="hoja-vida.html">Hoja de Vida</a></li>
+                <li><a href="material-interes.html">Material de Interés</a></li>
+                <li><a href="registrar.html">Inscripción</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulario</h1>
+        <form id="formUser">
+            <label for="textusuario">Usuario</label>
+            <input type="text" name="usuario" id="textusuario" required><br>
+            <label for="textnombre">Nombre</label>
+            <input type="text" name="nombre" id="textnombre" required><br>
+            <label for="textimagen">Imagen</label>
+            <input type="text" name="imagen" id="textimagen" required><br>
+            <label for="textmascota">Mascota</label>
+            <input type="text" name="mascota" id="textmascota" required><br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h2>Amigos</h2>
+        <table id="table">
+            <tr>
+                <th>Usuario</th>
+                <th>Nombre</th>
+                <th>Imagen</th>
+                <th>Mascota</th>
+            </tr>
+        </table>
+        <h2>Mascotas</h2>
+        <ul id="mascotas">
+            
+        </ul>
+    </main>
+    <footer>
+        <div id="social-links">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+        <h4 id="copy">&copy; 2024</h4>
+    </footer>
+</body>
+</html>
