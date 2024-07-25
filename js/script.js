@@ -52,7 +52,14 @@ class Usuario {
     }
 
 }
+function revisarPunto(usuario) {
+    return usuario.includes('.');
+}
 
+function mascotadistinta(usuarioExistente, mascota) {
+    return !usuarioExistente.mascotas.includes(mascota);
+}
+window.onload = () => {
 formUser.addEventListener("submit", (event) => {
     event.preventDefault();
     let usuario = txtuser.value;
@@ -86,10 +93,4 @@ table.addEventListener("click", (event) => {
         }
 });
 
-function revisarPunto(usuario) {
-    return usuario.includes('.');
-}
-
-function mascotadistinta(usuarioExistente, mascota) {
-    return !usuarioExistente.mascotas.includes(mascota);
 }

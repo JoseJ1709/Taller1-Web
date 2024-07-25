@@ -129,19 +129,10 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
-
-.custom-list ul,
-.custom-list ol {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.custom-list ul li::marker {
+.custom-list li::marker {
     color: #ff6347;
 }
 
-.custom-list ol li::marker {
+.custom-list2 li::marker {
     color: #47b5ff;
 }
-
